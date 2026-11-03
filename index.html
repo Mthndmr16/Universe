@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evren — Güneş Sistemi</title>
+<style>
+  :root{
+    --bg:#000; --ink:#e9eef7; --dim:#8d98ab; --line:rgba(255,255,255,.09); --glass:rgba(10,14,22,.58);
+    --accent:#8fd3ff; --warn:#ffcf7a;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);overflow:hidden;
+    font:13px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+  #view{position:fixed;inset:0}
+  #view canvas{display:block;cursor:grab}
+  #view canvas:active{cursor:grabbing}
+  .glass{background:var(--glass);backdrop-filter:blur(18px) saturate(140%);-webkit-backdrop-filter:blur(18px) saturate(140%);
+    border:1px solid var(--line);border-radius:14px}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+
+  /* başlık ve saat */
+  #brand{position:fixed;left:22px;top:18px;pointer-events:none}
+  #brand h1{margin:0;font-size:12px;letter-spacing:.42em;font-weight:600;color:var(--dim)}
+  #brand .date{font-size:26px;font-weight:300;letter-spacing:.01em;margin-top:4px}
+  #brand .time{color:var(--dim);font-variant-numeric:tabular-nums}
+
+  /* sol liste */
+  #list{position:fixed;left:16px;top:112px;bottom:96px;width:196px;overflow:auto;padding:10px 8px;scrollbar-width:thin}
+  #list h3{margin:12px 10px 4px;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);font-weight:600}
+  #list h3:first-child{margin-top:2px}
+  #list button{display:flex;justify-content:space-between;align-items:center;width:100%;padding:6px 10px;border-radius:8px;text-align:left;color:#cfd7e6}
+  #list button:hover{background:rgba(255,255,255,.06)}
+  #list button.active{background:rgba(143,211,255,.14);color:#fff}
+  #list small{color:var(--dim);font-size:10px}
+  #list .moons{margin:2px 0 6px 12px;border-left:1px solid var(--line);padding-left:4px}
+  #list .moons button{padding:4px 10px;font-size:12px}
+
+  /* sağ bilgi */
+  #info{position:fixed;right:16px;top:18px;width:300px;padding:18px 18px 14px;max-height:calc(100% - 120px);overflow:auto}
+  #infoKind{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+  #infoName{font-size:28px;font-weight:300;margin:2px 0 10px}
+  #info dl{margin:0;display:grid;gap:6px}
+  #info dl div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  #info dt{color:var(--dim)} #info dd{margin:0;text-align:right;font-variant-numeric:tabular-nums}
+  #infoSrc{margin-top:12px;font-size:11px;color:var(--dim)}
+  #infoSrc p{margin:6px 0} #infoSrc a{color:#b9c6da}
+  .warn{color:var(--warn)!important}
+  #infoState{color:var(--warn);font-size:11px;margin-top:8px}
+
+  /* zaman çubuğu */
+  #timebar{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);display:flex;align-items:center;gap:6px;padding:8px 10px}
+  #timebar button{min-width:34px;height:32px;border-radius:9px;padding:0 10px}
+  #timebar button:hover{background:rgba(255,255,255,.08)}
+  #rate{min-width:112px;text-align:center;color:var(--accent);font-variant-numeric:tabular-nums}
+  #timebar input{background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--ink);border-radius:8px;height:32px;padding:0 8px;font:inherit;color-scheme:dark}
+  .sep{width:1px;height:20px;background:var(--line);margin:0 4px}
+
+  /* katman anahtarları */
+  #toggles{position:fixed;right:16px;bottom:20px;display:flex;gap:4px;padding:6px}
+  #toggles button{padding:7px 11px;border-radius:9px;color:var(--dim)}
+  #toggles button.on{color:#fff;background:rgba(143,211,255,.14)}
+
+  /* etiketler */
+  #labels{position:fixed;inset:0;pointer-events:none}
+  .lbl{position:absolute;left:0;top:0;display:flex;align-items:center;gap:7px;pointer-events:auto;color:#dfe7f5;
+    font-size:11px;letter-spacing:.04em;white-space:nowrap;text-shadow:0 1px 6px #000;margin:-4px 0 0 -4px}
+  .lbl i{width:8px;height:8px;border-radius:50%;border:1.5px solid rgba(255,255,255,.75);flex:none}
+  .lbl.moon{font-size:10px;color:#b8c3d6} .lbl.moon i{width:6px;height:6px}
+  .lbl.star i{border-color:#ffe9b0} .lbl:hover span{color:#fff;text-decoration:underline}
+  .lbl.active i{background:var(--accent);border-color:var(--accent)}
+
+  /* yükleme */
+  #loading{position:fixed;inset:0;display:grid;place-items:center;background:#000;z-index:10;transition:opacity 1.2s}
+  #loading.done{opacity:0;pointer-events:none}
+  #loading .t{letter-spacing:.5em;font-size:13px;color:var(--dim);text-align:center}
+  #loadMsg{margin-top:14px;font-size:11px;letter-spacing:.05em}
+
+  dialog{max-width:720px;width:calc(100% - 32px);color:var(--ink);padding:22px 26px}
+  dialog::backdrop{background:rgba(0,0,0,.6)}
+  dialog h3{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:18px 0 6px}
+  dialog p{margin:5px 0;color:#c4cede} dialog a{color:#d6e2f3}
+  dialog .close{position:absolute;right:14px;top:10px;font-size:20px;color:var(--dim)}
+
+  @media (max-width:820px){
+    #list{display:none} #info{left:16px;right:16px;width:auto;top:auto;bottom:126px;max-height:34vh}
+    #brand .date{font-size:20px} #toggles{left:16px;right:16px;bottom:72px;justify-content:center;flex-wrap:wrap}
+    #timebar{left:16px;right:16px;transform:none;bottom:16px;justify-content:center;flex-wrap:wrap}
+  }
+</style>
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/build/three.module.js", "three/addons/": "./vendor/three/jsm/" } }
+</script>
+</head>
+<body>
+<div id="view"></div>
+<div id="labels"></div>
+
+<div id="brand"><h1>EVREN · GÜNEŞ SİSTEMİ</h1><div class="date" id="date">—</div><div class="time" id="time"></div></div>
+<nav id="list" class="glass"></nav>
+
+<aside id="info" class="glass">
+  <div id="infoKind"></div>
+  <div id="infoName"></div>
+  <dl id="infoRows"></dl>
+  <dl><div><dt>Güneş'e uzaklık</dt><dd id="infoDist">—</dd></div></dl>
+  <div id="infoState"></div>
+  <div id="infoSrc"></div>
+</aside>
+
+<div id="timebar" class="glass">
+  <button id="slower" title="Yavaşlat / geri">⏪</button>
+  <button id="pause" title="Durdur">❚❚</button>
+  <button id="faster" title="Hızlandır">⏩</button>
+  <span id="rate"></span>
+  <span class="sep"></span>
+  <input id="dateInput" type="datetime-local" title="Tarihe git (UTC)">
+  <button id="now">Şimdi</button>
+</div>
+
+<div id="toggles" class="glass">
+  <button data-toggle="orbits">Yörüngeler</button>
+  <button data-toggle="labels">Etiketler</button>
+  <button data-toggle="belt">Asteroitler</button>
+  <button data-toggle="stars">Yıldızlar</button>
+  <button id="sourcesBtn">Kaynaklar</button>
+</div>
+
+<dialog id="sources" class="glass"><button class="close" onclick="this.parentElement.close()">×</button><div id="sourcesBody"></div></dialog>
+
+<div id="loading"><div class="t">EVREN<div id="loadMsg">Başlatılıyor…</div></div></div>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

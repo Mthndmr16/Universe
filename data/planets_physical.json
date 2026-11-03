@@ -1,0 +1,809 @@
+{
+  "_source": {
+    "url": "https://ssd.jpl.nasa.gov/planets/phys_par.html",
+    "retrieved_utc": "2026-11-03T18:16:49.852Z",
+    "sha256": "e49a487947295c389ba6e5833dd8fb04b63e826d39f70c123881882096e5e68b",
+    "raw_file": "data/raw/phys_par.html",
+    "title": "JPL SSD — Planetary Physical Parameters"
+  },
+  "tables": [
+    {
+      "label": "Planet",
+      "columns": [
+        {
+          "name": "Equatorial Radius",
+          "unit": "(km)"
+        },
+        {
+          "name": "Mean Radius",
+          "unit": "(km)"
+        },
+        {
+          "name": "Mass",
+          "unit": "(×10^24 kg)"
+        },
+        {
+          "name": "Bulk Density",
+          "unit": "(g cm^-3)"
+        },
+        {
+          "name": "Sidereal Rotation Period",
+          "unit": "(d)"
+        },
+        {
+          "name": "Sidereal Orbital Period",
+          "unit": "(y)"
+        },
+        {
+          "name": "V(1,0)",
+          "unit": "(mag)"
+        },
+        {
+          "name": "Geometric Albedo",
+          "unit": null
+        },
+        {
+          "name": "Equatorial Gravity",
+          "unit": "(m s^-2)"
+        },
+        {
+          "name": "Escape Velocity",
+          "unit": "(km s^-1)"
+        }
+      ],
+      "bodies": {
+        "Mercury": {
+          "Equatorial Radius": {
+            "value": 2440.53,
+            "sigma": 0.04,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 2439.4,
+            "sigma": 0.1,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 0.330103,
+            "sigma": 0.000021,
+            "ref": "F"
+          },
+          "Bulk Density": {
+            "value": 5.4289,
+            "sigma": 0.0007,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 58.6462,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 0.2408467,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -0.6,
+            "sigma": 0.1,
+            "ref": "E"
+          },
+          "Geometric Albedo": {
+            "value": 0.106,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 3.7,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 4.25,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Venus": {
+          "Equatorial Radius": {
+            "value": 6051.8,
+            "sigma": 1,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 6051.8,
+            "sigma": 1,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 4.86731,
+            "sigma": 0.00023,
+            "ref": "G"
+          },
+          "Bulk Density": {
+            "value": 5.243,
+            "sigma": 0.003,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": -243.018,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 0.61519726,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -4.47,
+            "sigma": 0.07,
+            "ref": "E"
+          },
+          "Geometric Albedo": {
+            "value": 0.65,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 8.87,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 10.36,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Earth": {
+          "Equatorial Radius": {
+            "value": 6378.1366,
+            "sigma": 0.0001,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 6371.0084,
+            "sigma": 0.0001,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 5.97217,
+            "sigma": 0.00028,
+            "ref": "H"
+          },
+          "Bulk Density": {
+            "value": 5.5134,
+            "sigma": 0.0003,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.99726968,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Sidereal Orbital Period": {
+            "value": 1.0000174,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -3.86,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.367,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 9.8,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 11.19,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Mars": {
+          "Equatorial Radius": {
+            "value": 3396.19,
+            "sigma": 0.1,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 3389.5,
+            "sigma": 0.2,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 0.641691,
+            "sigma": 0.00003,
+            "ref": "I"
+          },
+          "Bulk Density": {
+            "value": 3.934,
+            "sigma": 0.0007,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 1.02595676,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 1.8808476,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -1.52,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.15,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 3.71,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 5.03,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Jupiter": {
+          "Equatorial Radius": {
+            "value": 71492,
+            "sigma": 4,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 69911,
+            "sigma": 6,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 1898.125,
+            "sigma": 0.088,
+            "ref": "J"
+          },
+          "Bulk Density": {
+            "value": 1.3262,
+            "sigma": 0.0003,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.41354,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 11.862615,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -9.4,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.52,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 24.79,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 60.2,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Saturn": {
+          "Equatorial Radius": {
+            "value": 60268,
+            "sigma": 4,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 58232,
+            "sigma": 6,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 568.317,
+            "sigma": 0.026,
+            "ref": "K"
+          },
+          "Bulk Density": {
+            "value": 0.6871,
+            "sigma": 0.0002,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.44401,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 29.447498,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -8.88,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.47,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 10.44,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 36.09,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Uranus": {
+          "Equatorial Radius": {
+            "value": 25559,
+            "sigma": 4,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 25362,
+            "sigma": 7,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 86.8099,
+            "sigma": 0.004,
+            "ref": "L"
+          },
+          "Bulk Density": {
+            "value": 1.27,
+            "sigma": 0.001,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": -0.71833,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 84.016846,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -7.19,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.51,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 8.87,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 21.38,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Neptune": {
+          "Equatorial Radius": {
+            "value": 24764,
+            "sigma": 15,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 24622,
+            "sigma": 19,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 102.4092,
+            "sigma": 0.0048,
+            "ref": "M"
+          },
+          "Bulk Density": {
+            "value": 1.638,
+            "sigma": 0.004,
+            "ref": "*"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.67125,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 164.79132,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -6.87,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Geometric Albedo": {
+            "value": 0.41,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 11.15,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 23.56,
+            "sigma": null,
+            "ref": "*"
+          }
+        }
+      }
+    },
+    {
+      "label": "Dwarf Planet",
+      "columns": [
+        {
+          "name": "Equatorial Radius",
+          "unit": "(km)"
+        },
+        {
+          "name": "Mean Radius",
+          "unit": "(km)"
+        },
+        {
+          "name": "Mass",
+          "unit": "(×10^18 kg)"
+        },
+        {
+          "name": "Bulk Density",
+          "unit": "(g cm^-3)"
+        },
+        {
+          "name": "Sidereal Rotation Period",
+          "unit": "(d)"
+        },
+        {
+          "name": "Sidereal Orbital Period",
+          "unit": "(y)"
+        },
+        {
+          "name": "V(1,0)",
+          "unit": "(mag)"
+        },
+        {
+          "name": "Geometric Albedo",
+          "unit": null
+        },
+        {
+          "name": "Equatorial Gravity",
+          "unit": "(m s^-2)"
+        },
+        {
+          "name": "Escape Velocity",
+          "unit": "(km s^-1)"
+        }
+      ],
+      "bodies": {
+        "Ceres": {
+          "Equatorial Radius": {
+            "value": 482.1,
+            "sigma": null,
+            "ref": "O"
+          },
+          "Mean Radius": {
+            "value": 469.7,
+            "sigma": null,
+            "ref": "O"
+          },
+          "Mass": {
+            "value": 938.416,
+            "sigma": 0.013,
+            "ref": "O"
+          },
+          "Bulk Density": {
+            "value": 2.162,
+            "sigma": 0.008,
+            "ref": "O"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.37809042,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Sidereal Orbital Period": {
+            "value": 4.61,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "V(1,0)": {
+            "value": 3.34,
+            "sigma": null,
+            "ref": "R"
+          },
+          "Geometric Albedo": {
+            "value": 0.09,
+            "sigma": 0.003,
+            "ref": "P"
+          },
+          "Equatorial Gravity": {
+            "value": 0.27,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 0.51,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Pluto": {
+          "Equatorial Radius": {
+            "value": 1188.3,
+            "sigma": 1.6,
+            "ref": "D"
+          },
+          "Mean Radius": {
+            "value": 1188.3,
+            "sigma": 1.6,
+            "ref": "D"
+          },
+          "Mass": {
+            "value": 13024.6,
+            "sigma": 6,
+            "ref": "N"
+          },
+          "Bulk Density": {
+            "value": 1.853,
+            "sigma": 0.004,
+            "ref": "N"
+          },
+          "Sidereal Rotation Period": {
+            "value": -6.3872,
+            "sigma": null,
+            "ref": "C"
+          },
+          "Sidereal Orbital Period": {
+            "value": 247.92065,
+            "sigma": null,
+            "ref": "B"
+          },
+          "V(1,0)": {
+            "value": -1,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Geometric Albedo": {
+            "value": 0.3,
+            "sigma": null,
+            "ref": "B"
+          },
+          "Equatorial Gravity": {
+            "value": 0.62,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 1.21,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Eris": {
+          "Equatorial Radius": {
+            "value": 1200,
+            "sigma": 50,
+            "ref": "S"
+          },
+          "Mean Radius": {
+            "value": 1200,
+            "sigma": 50,
+            "ref": "S"
+          },
+          "Mass": {
+            "value": 16600,
+            "sigma": 200,
+            "ref": "S"
+          },
+          "Bulk Density": {
+            "value": 2.3,
+            "sigma": 0.3,
+            "ref": "S"
+          },
+          "Sidereal Rotation Period": {
+            "value": 1.079,
+            "sigma": null,
+            "ref": "Y"
+          },
+          "Sidereal Orbital Period": {
+            "value": 557.56,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "V(1,0)": {
+            "value": -1.1,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Geometric Albedo": {
+            "value": 0.84,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Equatorial Gravity": {
+            "value": 0.77,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 1.36,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Makemake": {
+          "Equatorial Radius": {
+            "value": 717,
+            "sigma": 7,
+            "ref": "T"
+          },
+          "Mean Radius": {
+            "value": 714,
+            "sigma": 7,
+            "ref": "T"
+          },
+          "Mass": {
+            "value": 3100,
+            "sigma": null,
+            "ref": "U"
+          },
+          "Bulk Density": {
+            "value": 2.1,
+            "sigma": null,
+            "ref": "U"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.937,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Sidereal Orbital Period": {
+            "value": 307.54,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "V(1,0)": {
+            "value": -0.2,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Geometric Albedo": {
+            "value": 0.81,
+            "sigma": 0.02,
+            "ref": "T"
+          },
+          "Equatorial Gravity": {
+            "value": 0.4,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 0.76,
+            "sigma": null,
+            "ref": "*"
+          }
+        },
+        "Haumea": {
+          "Equatorial Radius": {
+            "value": 870,
+            "sigma": null,
+            "ref": "W"
+          },
+          "Mean Radius": {
+            "value": 715,
+            "sigma": null,
+            "ref": "W"
+          },
+          "Mass": {
+            "value": 4006,
+            "sigma": 40,
+            "ref": "V"
+          },
+          "Bulk Density": {
+            "value": 2.6,
+            "sigma": null,
+            "ref": "W"
+          },
+          "Sidereal Rotation Period": {
+            "value": 0.1631,
+            "sigma": null,
+            "ref": "X"
+          },
+          "Sidereal Orbital Period": {
+            "value": 284.81,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "V(1,0)": {
+            "value": 0.2,
+            "sigma": null,
+            "ref": "Q"
+          },
+          "Geometric Albedo": {
+            "value": 0.72,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Equatorial Gravity": {
+            "value": 0.35,
+            "sigma": null,
+            "ref": "*"
+          },
+          "Escape Velocity": {
+            "value": 0.78,
+            "sigma": null,
+            "ref": "*"
+          }
+        }
+      }
+    }
+  ],
+  "references": {
+    "*": "Value and uncertainty derived from other referenced values and uncertainties in this table . Bulk Density computed based on the volume of a sphere with the published mean radius.",
+    "B": "Explanatory Supplement to the Astronomical Almanac . 1992. K. P. Seidelmann, Ed., p.706 (Table 15.8) and p.316 (Table 5.8.1), University Science Books, Mill Valley, California.",
+    "C": "Seidelmann, P.K. et al. 2007. \"Report of the IAU/IAG Working Group on cartographic coordinates and rotational elements: 2006\" Celestial Mech. Dyn. Astr. 98 :155-180.",
+    "D": "Archinal, B.A. et al. 2018. \"Report of the IAU/IAG Working Group on cartographic coordinates and rotational elements: 2015\" Celestial Mech. Dyn. Astr. 130 :22.",
+    "E": "Hilton, J.L. 2005. \"Improving the Visual Magnitudes of the Planets in The Astronomical Almanac. I. Mercury and Venus\" Astron. J 129 :2902-2906.",
+    "F": "Anderson, J.D., et al. 1987. \"The mass, gravity field, and ephemeris of Mercury\" Icarus 71 :337-349.",
+    "G": "Konopliv, A.S., et al. 1999. \"Venus gravity: 180th degree and order model\" Icarus 139 :3-18.",
+    "H": "Folkner, W.M. and Williams, J.G. 2008. \"Mass parameters and uncertainties in planetary ephemeris DE421.\" Interoffice Memo. 343R-08-004 (internal document), Jet Propulsion Laboratory, Pasadena, CA.",
+    "I": "Jacobson, R.A. 2008. \"Ephemerides of the Martian Satellites - MAR080\" Interoffice Memo. 343R-08-006 (internal document), Jet Propulsion Laboratory, Pasadena, CA.",
+    "J": "Jacobson, R.A. 2013. \"Jovian Satellite ephemeris - JUP310\" private communication.",
+    "K": "Jacobson, R.A., et al. 2006. \"The gravity field of the Saturnian system from satellite observations and spacecraft tracking data\" AJ 132 (6):2520-2526.",
+    "L": "Jacobson, R.A. 2014. \"The Orbits of the Uranian Satellites and Rings, the Gravity Field of the Uranian System, and the Orientation of the Pole of Uranus\" AJ 148 :76-88.",
+    "M": "Jacobson, R.A. 2009. \"The orbits of the Neptunian satellites and the orientation of the pole of Neptune\" AJ 137 :4322.",
+    "N": "Brozovic, M. et al. 2024. \"Post-new-horizons Orbits and Masses for the Satellites of Pluto\" AJ 167 :256",
+    "O": "R.S. Park, et al. (2016) \"A partially differentiated interior for (1) Ceres deduced from its gravity field and shape\" Nature 537 :515-517",
+    "P": "Li et al. (2006) Icarus 182 :143-160",
+    "Q": "JPL Small-Body Database. 2019.",
+    "R": "IRAS-A-FPA-3-RDR-IMPS-V6.0",
+    "S": "Brown, Michael E.; Schaller, Emily L. (2007) Science 316 :1585.",
+    "T": "Brown, Michael E. (2013) ApJ 767 :L7.",
+    "U": "Parker, Alex et al. (2018) DPS meeting# 50 id. 509.02.",
+    "V": "Ragozzine, D.; Brown, M. E. (2009) AJ 137 :4766-4776.",
+    "W": "Lockwood, Alexandra C.; Brown, Michael E.; Stansberry, John. (2014) Earth, Moon, Planets 111 :127-137.",
+    "X": "Ortiz, J.L.; Santos-Sanz, P.; Sicardy, B.; Benedetti-Rossi, G.; et al. (2017) Nature 550 :219-223.",
+    "Y": "Roe, H. G.; Pike, R.E.; Brown, M.E. (2008) Icarus 198 :459-464.",
+    "A": "second table for dwarf planets was added. Mass values were updated from current estimates of GM (referenced above). The value of G (Newtonian gravitational constant) was taken from the current best estimate (CODATA 2018) available from the NIST website , G=6.67430 (±0.00015) × 10^-11 kg^-1 m^3 s^-2 ."
+  }
+}

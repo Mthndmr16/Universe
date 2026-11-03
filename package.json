@@ -1,0 +1,21 @@
+{
+  "name": "evren",
+  "private": true,
+  "type": "module",
+  "description": "NASA açık verisiyle kurulan, gerçek ölçülere dayalı evren modeli.",
+  "scripts": {
+    "fetch": "node tools/fetch_sources.mjs",
+    "fetch:asteroids": "node tools/fetch_asteroids.mjs",
+    "fetch:asteroid-elements": "node tools/fetch_asteroid_elements.mjs",
+    "build:ephem": "node tools/build_ephemeris.mjs",
+    "test": "node tests/accuracy.mjs && node tests/ephemeris.mjs",
+    "test:asteroids": "node tests/asteroids.mjs",
+    "fetch:orientation": "node tools/fetch_orientation.mjs",
+    "fetch:rings": "node tools/fetch_rings.mjs",
+    "test:orientation": "node tests/orientation.mjs",
+    "serve": "npx http-server -p 8766 -c-1"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  }
+}

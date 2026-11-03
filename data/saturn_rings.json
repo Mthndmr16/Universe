@@ -1,0 +1,285 @@
+{
+  "_source": {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/satringfact.html",
+    "retrieved_utc": "2026-11-03T19:22:54.738Z",
+    "sha256": "95d44c887d4fa6f235ec0ba0cce2352c6c542243c05cf66e20cdf86ceeddd957",
+    "raw_file": "data/raw/satringfact.html",
+    "title": "NASA NSSDCA — Saturnian Rings Fact Sheet (D. R. Williams)"
+  },
+  "rows": [
+    {
+      "name": "Saturn Equator",
+      "radius_km": 60268,
+      "radius_per_eq": 1,
+      "optical_depth": null,
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "D inner edge",
+      "radius_km": 66900,
+      "radius_per_eq": 1.11,
+      "optical_depth": {
+        "min": 0.00001,
+        "max": 0.00001,
+        "text": "10^-5"
+      },
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "D outer edge",
+      "radius_km": 74510,
+      "radius_per_eq": 1.236,
+      "optical_depth": {
+        "min": 0.00001,
+        "max": 0.00001,
+        "text": "10^-5"
+      },
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "C inner edge",
+      "radius_km": 74658,
+      "radius_per_eq": 1.239,
+      "optical_depth": {
+        "min": 0.05,
+        "max": 0.35,
+        "text": "0.05 - 0.35"
+      },
+      "albedo": {
+        "min": 0.12,
+        "max": 0.3,
+        "text": "0.12 - 0.30"
+      },
+      "thickness_m": "5",
+      "surface_density_g_cm2": "1.4 - 5",
+      "eccentricity": null
+    },
+    {
+      "name": "Titan ringlet",
+      "radius_km": 77871,
+      "radius_per_eq": 1.292,
+      "optical_depth": null,
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": "17",
+      "eccentricity": "0.00026"
+    },
+    {
+      "name": "Maxwell gap/ringlet",
+      "radius_km": 87491,
+      "radius_per_eq": 1.452,
+      "optical_depth": null,
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": "17",
+      "eccentricity": "0.00034"
+    },
+    {
+      "name": "C outer edge",
+      "radius_km": 91975,
+      "radius_per_eq": 1.526,
+      "optical_depth": {
+        "min": 0.05,
+        "max": 0.35,
+        "text": "0.05 - 0.35"
+      },
+      "albedo": {
+        "min": 0.2,
+        "max": 0.2,
+        "text": "0.2"
+      },
+      "thickness_m": "5",
+      "surface_density_g_cm2": "2 - 7",
+      "eccentricity": null
+    },
+    {
+      "name": "B inner edge",
+      "radius_km": 91975,
+      "radius_per_eq": 1.526,
+      "optical_depth": {
+        "min": 0.4,
+        "max": 2.5,
+        "text": "0.4 - 2.5"
+      },
+      "albedo": {
+        "min": 0.4,
+        "max": 0.6,
+        "text": "0.4 - 0.6"
+      },
+      "thickness_m": "5 - 10",
+      "surface_density_g_cm2": "20 - 100",
+      "eccentricity": null
+    },
+    {
+      "name": "B outer edge",
+      "radius_km": 117507,
+      "radius_per_eq": 1.95,
+      "optical_depth": {
+        "min": 0.4,
+        "max": 2.5,
+        "text": "0.4 - 2.5"
+      },
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "Cassini division",
+      "radius_km": null,
+      "radius_per_eq": null,
+      "optical_depth": {
+        "min": 0,
+        "max": 0.1,
+        "text": "0 - 0.1"
+      },
+      "albedo": {
+        "min": 0.2,
+        "max": 0.4,
+        "text": "0.2 - 0.4"
+      },
+      "thickness_m": "20",
+      "surface_density_g_cm2": "18 - 20",
+      "eccentricity": null
+    },
+    {
+      "name": "A inner edge",
+      "radius_km": 122340,
+      "radius_per_eq": 2.03,
+      "optical_depth": {
+        "min": 0.4,
+        "max": 1,
+        "text": "0.4 - 1.0"
+      },
+      "albedo": {
+        "min": 0.4,
+        "max": 0.6,
+        "text": "0.4 - 0.6"
+      },
+      "thickness_m": "10 - 30",
+      "surface_density_g_cm2": "30 - 40",
+      "eccentricity": null
+    },
+    {
+      "name": "Encke gap",
+      "radius_km": 133410,
+      "radius_per_eq": 2.214,
+      "optical_depth": null,
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "Keeler gap",
+      "radius_km": 136487,
+      "radius_per_eq": 2.265,
+      "optical_depth": null,
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "A outer edge",
+      "radius_km": 136780,
+      "radius_per_eq": 2.27,
+      "optical_depth": {
+        "min": 0.4,
+        "max": 1,
+        "text": "0.4 - 1.0"
+      },
+      "albedo": {
+        "min": 0.4,
+        "max": 0.6,
+        "text": "0.4 - 0.6"
+      },
+      "thickness_m": "10 - 30",
+      "surface_density_g_cm2": "20 - 30",
+      "eccentricity": null
+    },
+    {
+      "name": "F ring",
+      "radius_km": 139826,
+      "radius_per_eq": 2.32,
+      "optical_depth": {
+        "min": 0.1,
+        "max": 0.1,
+        "text": "0.1"
+      },
+      "albedo": {
+        "min": 0.6,
+        "max": 0.6,
+        "text": "0.6"
+      },
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": "0.0026"
+    },
+    {
+      "name": "G inner edge",
+      "radius_km": 166000,
+      "radius_per_eq": 2.754,
+      "optical_depth": {
+        "min": 0.000001,
+        "max": 0.000001,
+        "text": "10^-6"
+      },
+      "albedo": null,
+      "thickness_m": "10^5",
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "G outer edge",
+      "radius_km": 173000,
+      "radius_per_eq": 2.874,
+      "optical_depth": {
+        "min": 0.000001,
+        "max": 0.000001,
+        "text": "10^-6"
+      },
+      "albedo": null,
+      "thickness_m": null,
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "E inner edge",
+      "radius_km": 180000,
+      "radius_per_eq": 2.987,
+      "optical_depth": {
+        "min": 0.000001,
+        "max": 0.000001,
+        "text": "10^-6"
+      },
+      "albedo": null,
+      "thickness_m": "10^7",
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    },
+    {
+      "name": "E outer edge",
+      "radius_km": 480000,
+      "radius_per_eq": 7.964,
+      "optical_depth": {
+        "min": 0.000001,
+        "max": 0.000001,
+        "text": "10^-6"
+      },
+      "albedo": null,
+      "thickness_m": "10^7",
+      "surface_density_g_cm2": null,
+      "eccentricity": null
+    }
+  ]
+}

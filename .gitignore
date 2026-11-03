@@ -1,0 +1,7 @@
+node_modules/
+# Büyük ham yanıtlar; `npm run fetch` ve `npm run fetch:asteroids` ile yeniden üretilebilir.
+# Özetleri (SHA-256) data/*.json içindeki _source alanında kayıtlı.
+data/raw/horizons_*
+data/raw/sbdb_*
+data/raw/textures/
+data/raw/rings/

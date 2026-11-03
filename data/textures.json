@@ -1,0 +1,519 @@
+{
+  "_note": "tools/build_textures.py ile üretildi. Renk ve içerik değiştirilmez; yalnızca birleştirme, boyutlandırma ve bit derinliği dönüşümü.",
+  "textures": {
+    "earth_day": {
+      "id": "earth_day",
+      "body": "Earth",
+      "credit": "NASA Earth Observatory — Blue Marble: Next Generation (Reto Stöckli), Nisan 2004, topoğrafya ve batimetri ile",
+      "page": "https://visibleearth.nasa.gov/images/73909/december-blue-marble-next-generation-w-topography-and-bathymetry",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:21:30+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/april/world.topo.bathy.200404.3x21600x10800.jpg",
+      "source_sha256": "7d3a8c58de56782a68156c67dd171074e210a7feec9283987622e569fa338f6a",
+      "source_size": [
+        21600,
+        10800
+      ],
+      "file": "assets/textures/earth_day.jpg",
+      "size": [
+        8192,
+        4096
+      ],
+      "steps": [
+        "Lanczos ile 8192x4096 boyutuna"
+      ],
+      "file_sha256": "8c72fbc4933b68844ae7a8847b437c394e9cc545c8b7f94b49fdbe5259a4c548"
+    },
+    "earth_night": {
+      "id": "earth_night",
+      "body": "Earth",
+      "credit": "NASA Earth Observatory — Black Marble 2012 (Suomi NPP VIIRS, NASA/NOAA)",
+      "page": "https://visibleearth.nasa.gov/images/144898/earth-at-night-black-marble-2016-color-maps",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:21:33+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/144000/144875/BlackMarble_2012_3km.jpg",
+      "source_sha256": "76428afb33e80d6112a8f0c110af4e5e52316e3a1858561a3b8c931779eca723",
+      "source_size": [
+        13500,
+        6750
+      ],
+      "file": "assets/textures/earth_night.jpg",
+      "size": [
+        8192,
+        4096
+      ],
+      "steps": [
+        "Lanczos ile 8192x4096 boyutuna"
+      ],
+      "file_sha256": "2c8af1d2dba9a3fc591f55df503404eb746479f15b2fc22c6b6ba0f14d09bec4"
+    },
+    "moon": {
+      "id": "moon",
+      "body": "Moon",
+      "credit": "NASA Scientific Visualization Studio — CGI Moon Kit (LRO LROC WAC renk mozaiği)",
+      "page": "https://svs.gsfc.nasa.gov/4720",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:16:49+00:00",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_16bit_srgb_4k.tif",
+      "source_sha256": "9731fa8af425b6c2f88f277ecca82bf8c603f3743894f64ed7b25c5bfefa22ff",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/moon.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "16 bit → 8 bit (÷257)"
+      ],
+      "file_sha256": "a01684fb223f0e5117a3dea03bec433a3facfb2efe5749cacf7f836ef60296f6"
+    },
+    "mercury": {
+      "id": "mercury",
+      "body": "Mercury",
+      "credit": "NASA Mercury Trek — MESSENGER MDIS BDR küresel mozaik 166 m (tek bant; Merkür gerçekte grimsi)",
+      "page": "https://trek.nasa.gov/mercury/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:16:49+00:00",
+      "trek_level": "4",
+      "tiles": "32x16",
+      "tile_template": "https://trek.nasa.gov/tiles/Mercury/EQ/Mercury_MESSENGER_MDIS_Basemap_BDR_Mosaic_Global_166m/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpg",
+      "tiles_sha256": "efc0bdaeca19e728f5416fdc47725229766fde9171b4804d2915ac1d0e3cdbf5",
+      "source_size": [
+        8192,
+        4096
+      ],
+      "file": "assets/textures/mercury.jpg",
+      "size": [
+        8192,
+        4096
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "80c0b3739f4a52bd07a3c0137f19be85012e89d81a07e994913a581fbd6f6d9d"
+    },
+    "mars": {
+      "id": "mars",
+      "body": "Mars",
+      "credit": "NASA Mars Trek — Viking MDIM 2.1 renkli küresel mozaik 232 m (NASA/JPL/USGS)",
+      "page": "https://trek.nasa.gov/mars/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:18:09+00:00",
+      "trek_level": "4",
+      "tiles": "32x16",
+      "tile_template": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpg",
+      "tiles_sha256": "60caadabb2f1b8ac56e41567e35cb1f13279d1e38906940873b0aa05d86e3b48",
+      "source_size": [
+        8192,
+        4096
+      ],
+      "file": "assets/textures/mars.jpg",
+      "size": [
+        8192,
+        4096
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "1a83825c43f774def3c3e9eff3cf054c0baf46089fb17076282c46ab98067f28"
+    },
+    "jupiter": {
+      "id": "jupiter",
+      "body": "Jupiter",
+      "credit": "NASA/JPL/Space Science Institute — PIA07782, Cassini Aralık 2000 silindirik harita",
+      "page": "https://science.nasa.gov/photojournal/cassinis-best-maps-of-jupiter-cylindrical-map/",
+      "lon_left_edge_deg": null,
+      "note": "Sayfada haritanın boylam düzeni belirtilmiyor; Büyük Kırmızı Leke'nin boylamı temsilîdir.",
+      "retrieved_utc": "2026-11-03T19:19:28+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia07/pia07782/PIA07782.tif",
+      "source_sha256": "f92ffc7a2fa0235c47ec8f1f168dd36bffeb6acc318292b237878a00a48cf7d9",
+      "source_size": [
+        3601,
+        1801
+      ],
+      "file": "assets/textures/jupiter.jpg",
+      "size": [
+        3601,
+        1801
+      ],
+      "steps": [],
+      "file_sha256": "1b11a08b0c80bbedae8c621d3e2afa0320cd5013f1ae0330a0fe814802c71dd4"
+    },
+    "venus": {
+      "id": "venus",
+      "body": "Venus",
+      "credit": "NASA 3D Resources — Venus",
+      "page": "https://science.nasa.gov/3d-resources/venus/",
+      "lon_left_edge_deg": null,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:30+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/venus/Venus.jpg",
+      "source_sha256": "e395bced59e95339efbdd002d4a0bbbf81fe323a6694f3a4039120560c80e789",
+      "source_size": [
+        1440,
+        720
+      ],
+      "file": "assets/textures/venus.jpg",
+      "size": [
+        1440,
+        720
+      ],
+      "steps": [],
+      "file_sha256": "49910a7c8b205aac353249c022705ececc059f3ddae66d4f71b35cc312b783ee"
+    },
+    "saturn": {
+      "id": "saturn",
+      "body": "Saturn",
+      "credit": "NASA 3D Resources — Saturn",
+      "page": "https://science.nasa.gov/3d-resources/saturn/",
+      "lon_left_edge_deg": null,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:30+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/saturn/Saturn.jpg",
+      "source_sha256": "d959a239e3d87630daf08e2a688dcbf315fe01b1fd474e55522770108f40aca7",
+      "source_size": [
+        720,
+        360
+      ],
+      "file": "assets/textures/saturn.jpg",
+      "size": [
+        720,
+        360
+      ],
+      "steps": [],
+      "file_sha256": "1498b6d23d8c436a09d772b1751e2d1fe86f1f5d775a4f042b55da4c7e782141"
+    },
+    "neptune": {
+      "id": "neptune",
+      "body": "Neptune",
+      "credit": "NASA 3D Resources — Neptune",
+      "page": "https://science.nasa.gov/3d-resources/neptune/",
+      "lon_left_edge_deg": null,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:31+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/neptune/Neptune.jpg",
+      "source_sha256": "e9bb2b7bcfb98d3f1adc6f2e20e833a00c11e9677238d8a00ae7431214ca70aa",
+      "source_size": [
+        720,
+        360
+      ],
+      "file": "assets/textures/neptune.jpg",
+      "size": [
+        720,
+        360
+      ],
+      "steps": [],
+      "file_sha256": "9431dcbfb818187e50887fa2a330c0aa7a49f760e8a0496a3db3df77afcce7f7"
+    },
+    "pluto": {
+      "id": "pluto",
+      "body": "Pluto",
+      "credit": "NASA 3D Resources — Pluto",
+      "page": "https://science.nasa.gov/3d-resources/pluto/",
+      "lon_left_edge_deg": null,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:31+00:00",
+      "url": "https://assets.science.nasa.gov/content/dam/science/cds/3d/resources/image/pluto/Pluto.jpg",
+      "source_sha256": "a921387426a506b6f6ae8fd24872eeab59b81f963cd9c010b59d825059b29c64",
+      "source_size": [
+        720,
+        360
+      ],
+      "file": "assets/textures/pluto.jpg",
+      "size": [
+        720,
+        360
+      ],
+      "steps": [],
+      "file_sha256": "c1ef8b4bbd5c9b6eb834586dcfea2dce624a17f7d940a3c8fb7ef20e18472c72"
+    },
+    "io": {
+      "id": "io",
+      "body": "Io",
+      "credit": "NASA Io Trek — Voyager ISS ve Galileo SSI renkli küresel mozaik 1 km",
+      "page": "https://trek.nasa.gov/io/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:31+00:00",
+      "trek_level": "3",
+      "tiles": "16x8",
+      "tile_template": "https://trek.nasa.gov/tiles/Io/EQ/Io_GalileoSSI_Voyager_Global_Mosaic_ClrMerge_1km/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+      "tiles_sha256": "32fb91070ad16858edb1fa3a0708a15cf69f916fb3b339abb00396b43230a08a",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/io.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "6b300e988950a98bcd6d1e87094ac6bdbe9a3fcbdfb93f1ed825fcd4740427dc"
+    },
+    "europa": {
+      "id": "europa",
+      "body": "Europa",
+      "credit": "NASA Europa Trek — Voyager ve Galileo SSI renk karışımı küresel mozaik 270 m",
+      "page": "https://trek.nasa.gov/europa/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:19:53+00:00",
+      "trek_level": "3",
+      "tiles": "16x8",
+      "tile_template": "https://trek.nasa.gov/tiles/Europa/EQ/20150218_europa_global_map_20000x10000/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+      "tiles_sha256": "fe6d4facfa081de0d2231e5075285993de135438acab1dfd3f0391b79cca0ef3",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/europa.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "d2e2c5b84141686cf77e7dfa4436a8e5da2e95799fe40e4d121889ac3bada5aa"
+    },
+    "ganymede": {
+      "id": "ganymede",
+      "body": "Ganymede",
+      "credit": "NASA Ganymede Trek — Voyager ve Galileo SSI renkli küresel mozaik 1435 m",
+      "page": "https://trek.nasa.gov/ganymede/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:20:16+00:00",
+      "trek_level": "3",
+      "tiles": "16x8",
+      "tile_template": "https://trek.nasa.gov/tiles/Ganymede/EQ/Ganymede_Voyager_GalileoSSI_Global_ClrMosaic_1435m/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+      "tiles_sha256": "c2304d6cb12d9f97e34378a1ac7e23eb747b91f753220f2fa47cf1d0f0619a1b",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/ganymede.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "c5052724aca4b61f3cb56ea3e1f9212ef269051399d9682a29718ae6e8d3ba53"
+    },
+    "enceladus": {
+      "id": "enceladus",
+      "body": "Enceladus",
+      "credit": "NASA Enceladus Trek — Cassini ISS renkli küresel mozaik 100 m",
+      "page": "https://trek.nasa.gov/enceladus/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:20:39+00:00",
+      "trek_level": "3",
+      "tiles": "16x8",
+      "tile_template": "https://trek.nasa.gov/tiles/Enceladus/EQ/Enceladus_cyl_KH/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.jpg",
+      "tiles_sha256": "0d813b5021bfa1b2812fe8b26352fa58bf135a7f31173042a929f74081e43423",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/enceladus.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "ab170aa35b1e85b7d66003a78f0e10dca60368250f82e80b2657cb96db7d6049"
+    },
+    "vesta": {
+      "id": "vesta",
+      "body": "Vesta",
+      "credit": "NASA Vesta Trek — Dawn FC gerçek renk küresel mozaik (DLR işlemesi)",
+      "page": "https://trek.nasa.gov/vesta/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:20:58+00:00",
+      "trek_level": "3",
+      "tiles": "16x8",
+      "tile_template": "https://trek.nasa.gov/tiles/Vesta/EQ/Vesta_Dawn_HAMO_TrueClr_DLR_global_74ppd_IAU/1.0.0//{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+      "tiles_sha256": "95ff89c252e1e264ba3ef17aebd24345d8f2bce2022fd71d31aaa5fa85444fee",
+      "source_size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/vesta.jpg",
+      "size": [
+        4096,
+        2048
+      ],
+      "steps": [
+        "Trek döşemeleri birleştirildi"
+      ],
+      "file_sha256": "a807ebb1969dd3e920f8384b1b4cb4ad974ad1e20d512c34700b416b11f2b38d"
+    },
+    "starmap": {
+      "id": "starmap",
+      "body": "Sky",
+      "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio — Deep Star Maps 2020. Gaia DR2: ESA/Gaia/DPAC; Hipparcos-2, Tycho-2: ESA",
+      "page": "https://svs.gsfc.nasa.gov/4851",
+      "lon_left_edge_deg": null,
+      "note": "Ekvatoral (ICRS) koordinatlar; u = 0,5 − RA/360°, v: dik açıklık +90°'den −90°'ye.",
+      "retrieved_utc": "2026-11-03T19:22:05+00:00",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004800/a004851/starmap_2020_4k.exr",
+      "source_sha256": "69b841cd048c2ef35543eb1c5819b322530e78aa4b0cab97ec1de3ef56a4ddcd",
+      "file": "assets/sky/starmap.exr",
+      "steps": [
+        "değiştirilmeden kopyalandı"
+      ]
+    },
+    "earth_water": {
+      "id": "earth_water",
+      "body": "Earth",
+      "credit": "NASA GIBS (EOSDIS) — MODIS Water Mask (Terra MODIS, 250 m)",
+      "page": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "lon_left_edge_deg": -180,
+      "note": null,
+      "retrieved_utc": "2026-11-03T19:48:30+00:00",
+      "layers": [
+        {
+          "gibs_layer": "MODIS_Water_Mask",
+          "gibs_time": "default",
+          "gibs_level": 4,
+          "colormap": "https://gibs.earthdata.nasa.gov/colormaps/v1.3/MODIS_Water_Mask.xml",
+          "tiles_sha256": "bc426e96f2b2289b688f9c1132b3f898bd1dab4bf0ab1b2f32a088b72a8ecfdc"
+        }
+      ],
+      "source_size": [
+        10240,
+        5120
+      ],
+      "file": "assets/textures/earth_water.png",
+      "size": [
+        8192,
+        4096
+      ],
+      "steps": [
+        "su pikselleri 255, diğerleri 0",
+        "Lanczos ile 8192x4096 boyutuna"
+      ],
+      "file_sha256": "49392b6fbd0a6aca0ec83dfd0acf7ae115f3c4d32c39a9aba9a7ca0d72e02277"
+    },
+    "earth_clouds": {
+      "id": "earth_clouds",
+      "body": "Earth",
+      "derived": true,
+      "lon_left_edge_deg": -180,
+      "page": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "credit": "Türetilmiş: NASA GIBS VIIRS gerçek renkli görüntüler (2026-10-30; Suomi NPP, NOAA-20, NOAA-21) ve NASA Blue Marble yüzeyi",
+      "note": "Tek bir günün (2026-10-30) bulutları; tarih değişse de aynı kalır. Bulut örtüsü parlaklık farkından hesaplandı (Y_bulut=0.75, eşik=0.06; görsel tercih).",
+      "layers": [
+        {
+          "layer": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+          "date": "2026-10-30",
+          "level": 3,
+          "tiles_sha256": "97e160f215d88131d24536c45cbed40088d8cfa717b5bb982bae4c8f156c414a"
+        },
+        {
+          "layer": "VIIRS_NOAA20_CorrectedReflectance_TrueColor",
+          "date": "2026-10-30",
+          "level": 3,
+          "tiles_sha256": "0e3580a103992336dacc06836c3295ff00b0c6f73117b0255c4c2a01eb4da027"
+        },
+        {
+          "layer": "VIIRS_NOAA21_CorrectedReflectance_TrueColor",
+          "date": "2026-10-30",
+          "level": 3,
+          "tiles_sha256": "52f1885e53c828591ebd83c20cf00fa08c154cbf924442f532e801378051702c"
+        }
+      ],
+      "file": "assets/textures/earth_clouds.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "retrieved_utc": "2026-11-03T19:50:57+00:00",
+      "steps": [
+        "üç uydunun ortancası",
+        "a = (Y − Y_yüzey − eşik) / (Y_bulut − Y_yüzey), 0–1",
+        "kar/buz üzerinde (Y_yüzey > 0.35) örtü bilinmiyor → 0",
+        "Lanczos ile 4096x2048"
+      ],
+      "file_sha256": "335e05748b03f1ec35118f3d169be237fec5a568934faaf94116ceeae4c22ba4",
+      "mean_cover": 0.25
+    },
+    "moon_normal": {
+      "id": "moon_normal",
+      "body": "Moon",
+      "derived": true,
+      "credit": "NASA SVS CGI Moon Kit — LRO LOLA yükseklik modeli (16 piksel/derece)",
+      "page": "https://svs.gsfc.nasa.gov/4720",
+      "url": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_16_uint.tif",
+      "source_sha256": "45a2b32d56e81ed30db07fead8abc842b249b6511219d9ca2c53f81bc2dc5d62",
+      "lon_left_edge_deg": -180,
+      "source_size": [
+        5760,
+        2880
+      ],
+      "size": [
+        4096,
+        2048
+      ],
+      "file": "assets/textures/moon_normal.png",
+      "file_sha256": "ceafc0f1c853b21fb55df571b33901991821a2c935767d366c7981fde4be8b23",
+      "retrieved_utc": "2026-11-03T19:54:00+00:00",
+      "steps": [
+        "yükseklik (km) → merkezi farklarla doğu ve kuzey eğimi",
+        "normal = norm(−∂h/∂x, −∂h/∂y, 1), yerel doğu/kuzey/yukarı",
+        "gerçek ölçek, abartma yok"
+      ],
+      "height_range_km": [
+        -8.98,
+        10.69
+      ]
+    },
+    "mars_normal": {
+      "id": "mars_normal",
+      "body": "Mars",
+      "derived": true,
+      "credit": "NASA PDS Geosciences — MGS MOLA MEGDR yükseklik modeli (16 piksel/derece)",
+      "page": "https://pds-geosciences.wustl.edu/missions/mgs/megdr.html",
+      "url": "https://pds-geosciences.wustl.edu/mgs/mgs-m-mola-5-megdr-l3-v1/mgsl_300x/meg016/megt90n000eb.img",
+      "source_sha256": "d18d9b9ab8c5516d02e157dd2cde0f1d0d160c21940e953ba22391269a545e7b",
+      "lon_left_edge_deg": -180,
+      "source_size": [
+        5760,
+        2880
+      ],
+      "size": [
+        5760,
+        2880
+      ],
+      "file": "assets/textures/mars_normal.png",
+      "file_sha256": "41cf393e78b906e48faf930b5e9b447fca9e5d099c14309dbab51b5b0c5df389",
+      "retrieved_utc": "2026-11-03T19:54:13+00:00",
+      "steps": [
+        "yükseklik (km) → merkezi farklarla doğu ve kuzey eğimi",
+        "normal = norm(−∂h/∂x, −∂h/∂y, 1), yerel doğu/kuzey/yukarı",
+        "gerçek ölçek, abartma yok"
+      ],
+      "height_range_km": [
+        -8.18,
+        21.17
+      ]
+    }
+  }
+}

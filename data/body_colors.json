@@ -1,0 +1,47 @@
+{
+  "_note": "tools/sample_colors.py ile üretildi.",
+  "colors": {
+    "Uranus": {
+      "linear_rgb_ratio": [
+        0.6994,
+        1.0,
+        0.9072
+      ],
+      "pixels": 15695,
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01391/PIA01391.jpg",
+      "page": "https://science.nasa.gov/3d-resources/uranus/",
+      "description": "Voyager 2; üç renk filtresiyle çekilip birleştirilmiş renkli görüntü (PIA01391)",
+      "source_sha256": "987ca5a63c1ba601c766c4b869d553fd0781d4c4d6ea7392f370bd4b7453d166",
+      "retrieved_utc": "2026-11-03T19:43:17+00:00",
+      "method": "Aydınlık disk pikselleri (parlaklık > %99,5 yüzdeliğin %25'i), doğrusal RGB ortalaması, en büyük kanala bölünmüş"
+    },
+    "Venus": {
+      "linear_rgb_ratio": [
+        1.0,
+        0.9606,
+        0.9304
+      ],
+      "pixels": 1088880,
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia23/pia23791/PIA23791.jpg",
+      "page": "https://photojournal.jpl.nasa.gov/catalog/PIA23791",
+      "description": "Mariner 10, Venüs'ün bulut katmanı (PIA23791)",
+      "source_sha256": "853268f7922ea572a0966df4a378e6b54221102d6740bdc78f4011708ee71007",
+      "retrieved_utc": "2026-11-03T19:43:18+00:00",
+      "method": "Aydınlık disk pikselleri (parlaklık > %99,5 yüzdeliğin %25'i), doğrusal RGB ortalaması, en büyük kanala bölünmüş"
+    },
+    "SaturnRings": {
+      "linear_rgb_ratio": [
+        1.0,
+        0.8502,
+        0.7846
+      ],
+      "pixels": 187487,
+      "source_url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia06/pia06485/PIA06485.jpg",
+      "page": "https://science.nasa.gov/photojournal/musical-rings/",
+      "description": "Cassini, halka sisteminin neredeyse tamamı; kırmızı, yeşil ve mavi filtrelerle doğal renk (PIA06485)",
+      "source_sha256": "a265af30c7285e894fbfcf107a22920efef68782343d27cb61681e017cadbc9a",
+      "retrieved_utc": "2026-11-03T19:43:18+00:00",
+      "method": "Aydınlık disk pikselleri (parlaklık > %99,5 yüzdeliğin %25'i), doğrusal RGB ortalaması, en büyük kanala bölünmüş"
+    }
+  }
+}

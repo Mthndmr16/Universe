@@ -1,0 +1,175 @@
+{
+  "_source": {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+    "retrieved_utc": "2026-11-03T18:16:51.720Z",
+    "sha256": "bcc186a518298636340e7975bf5a32da660cd656b90081f2e7c8aa7ec2b6561a",
+    "raw_file": "data/raw/sunfact.html",
+    "title": "NASA NSSDCA — Sun Fact Sheet (D. R. Williams)"
+  },
+  "tables": {
+    "Bulk parameters": {
+      "Mass (10^24 kg)": {
+        "sun": "1,988,400.",
+        "value": 1988400,
+        "earth": "5.9722",
+        "ratio_sun_earth": "332,900."
+      },
+      "GM (x 10^6 km^3/s^2)": {
+        "sun": "132,712.",
+        "value": 132712,
+        "earth": "0.39860",
+        "ratio_sun_earth": "332,900."
+      },
+      "Volume (10^12 km^3)": {
+        "sun": "1,412,000.",
+        "value": 1412000,
+        "earth": "1.083",
+        "ratio_sun_earth": "1,304,000."
+      },
+      "Volumetric mean radius (km)": {
+        "sun": "695,700.",
+        "value": 695700,
+        "earth": "6371.",
+        "ratio_sun_earth": "109.2"
+      },
+      "Mean density (kg/m^3)": {
+        "sun": "1408.",
+        "value": 1408,
+        "earth": "5514.",
+        "ratio_sun_earth": "0.255"
+      },
+      "Surface gravity (eq.) (m/s^2)": {
+        "sun": "274.0",
+        "value": 274,
+        "earth": "9.78",
+        "ratio_sun_earth": "28.0"
+      },
+      "Escape velocity (km/s)": {
+        "sun": "617.6",
+        "value": 617.6,
+        "earth": "11.19",
+        "ratio_sun_earth": "55.2"
+      },
+      "Ellipticity": {
+        "sun": "0.00005",
+        "value": 0.00005,
+        "earth": "0.0034",
+        "ratio_sun_earth": "0.015"
+      },
+      "Moment of inertia (I/MR^2)": {
+        "sun": "0.070",
+        "value": 0.07,
+        "earth": "0.3308",
+        "ratio_sun_earth": "0.212"
+      },
+      "Visual magnitude V(1,0)": {
+        "sun": "-26.74",
+        "value": -26.74,
+        "earth": "-3.86",
+        "ratio_sun_earth": "-"
+      },
+      "Absolute magnitude": {
+        "sun": "+4.83",
+        "value": 4.83,
+        "earth": "",
+        "ratio_sun_earth": ""
+      },
+      "Luminosity (10^24 J/s)": {
+        "sun": "382.8",
+        "value": 382.8,
+        "earth": "",
+        "ratio_sun_earth": ""
+      },
+      "Mass conversion rate (10^6 kg/s)": {
+        "sun": "4260.",
+        "value": 4260,
+        "earth": "",
+        "ratio_sun_earth": ""
+      },
+      "Mean energy production (10^-3 J/kg s)": {
+        "sun": "0.1925",
+        "value": 0.1925,
+        "earth": "",
+        "ratio_sun_earth": ""
+      },
+      "Surface emission (10^6 J/m^2s)": {
+        "sun": "62.94",
+        "value": 62.94,
+        "earth": "",
+        "ratio_sun_earth": ""
+      },
+      "Spectral type": {
+        "sun": "G2 V",
+        "value": null,
+        "earth": "",
+        "ratio_sun_earth": ""
+      }
+    },
+    "Rotational and Orbital parameters": {
+      "Sidereal rotation period (hrs)*": {
+        "sun": "609.12",
+        "value": 609.12,
+        "earth": "23.9345",
+        "ratio_sun_earth": "25.449"
+      },
+      "Obliquity to ecliptic (deg.)": {
+        "sun": "7.25",
+        "value": 7.25,
+        "earth": "23.44",
+        "ratio_sun_earth": "0.309"
+      },
+      "Speed relative to nearby stars (km/s)": {
+        "sun": "19.4",
+        "value": 19.4,
+        "earth": "",
+        "ratio_sun_earth": ""
+      }
+    }
+  },
+  "text_blocks": {
+    "North Pole of Rotation": [
+      "Right Ascension: 286.13",
+      "Declination    :  63.87",
+      "Reference Date : 1.5 Jan 2000 (JD 2451545.0)"
+    ],
+    "Sun Observational Parameters": [
+      "Apparent diameter from Earth",
+      "At 1 A.U.(seconds of arc)  1919.",
+      "Maximum (seconds of arc)   1952.",
+      "Minimum (seconds of arc)   1887.",
+      "Distance from Earth",
+      "Mean (106 km)              149.6",
+      "Minimum (106 km)           147.1",
+      "Maximum (106 km)           152.1"
+    ],
+    "Solar Magnetic Field": [
+      "Typical magnetic field strengths for various parts of the Sun",
+      "Polar Field:  1 - 2 Gauss",
+      "Sunspots:  3000 Gauss",
+      "Prominences:  10 - 100 Gauss",
+      "Chromospheric plages:  200 Gauss",
+      "Bright chromospheric network:  25 Gauss",
+      "Ephemeral (unipolar) active regions:  20 Gauss"
+    ],
+    "Solar Atmosphere": [
+      "Surface Gas Pressure (top of photosphere): 0.868 mb",
+      "Pressure at bottom of photosphere (optical depth = 1): 125 mb",
+      "Effective temperature: 5772 K",
+      "Temperature at top of photosphere:  4400 K",
+      "Temperature at bottom of photosphere:  6600 K",
+      "Temperature at top of chromosphere:  ~30,000 K",
+      "Photosphere thickness:  ~500 km",
+      "Chromosphere thickness:  ~2500 km",
+      "Sun Spot Cycle:  11.4 yr.",
+      "Photosphere Composition:",
+      "Major elements: H - 90.965%, He - 8.889%",
+      "Minor elements (ppm): O - 774, C - 330, Ne - 112, N - 102",
+      "Fe - 43, Mg - 35, Si - 32, S - 15"
+    ]
+  },
+  "derived": {
+    "north_pole_ra_deg": 286.13,
+    "north_pole_dec_deg": 63.87,
+    "effective_temperature_K": 5772
+  }
+}

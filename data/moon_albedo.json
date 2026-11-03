@@ -1,0 +1,800 @@
+{
+  "_source": {
+    "title": "NASA NSSDCA — uydu bilgi kartları (görsel geometrik albedo)",
+    "pages": [
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/joviansatfact.html",
+        "retrieved_utc": "2026-11-03T19:56:52.162Z",
+        "sha256": "e4c85ba5032167dc7bf44cd9896f8c4f745cbddeae95ea20fad0601e7709c9d8",
+        "raw_file": "data/raw/joviansatfact.html",
+        "page": "joviansatfact"
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturniansatfact.html",
+        "retrieved_utc": "2026-11-03T19:56:52.336Z",
+        "sha256": "996611cb9afe83a02171ea1302991980f06eafdd5e15e0cf6829a5d5523e098f",
+        "raw_file": "data/raw/saturniansatfact.html",
+        "page": "saturniansatfact"
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/uraniansatfact.html",
+        "retrieved_utc": "2026-11-03T19:56:52.512Z",
+        "sha256": "f39381a02a5ae848d6026c8fc51abfa1ad66e7cf59dee54e5c1e15cf791f063e",
+        "raw_file": "data/raw/uraniansatfact.html",
+        "page": "uraniansatfact"
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/neptuniansatfact.html",
+        "retrieved_utc": "2026-11-03T19:56:52.676Z",
+        "sha256": "8b657179ac0e93f57f8b38ca43a346e0ff94d0213f55be86dec76be1cbbb237e",
+        "raw_file": "data/raw/neptuniansatfact.html",
+        "page": "neptuniansatfact"
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+        "retrieved_utc": "2026-11-03T19:56:52.845Z",
+        "sha256": "366b0ce9b69cbee370be904956748af954468a41b93dc71a796a986519aa8d74",
+        "raw_file": "data/raw/marsfact.html",
+        "page": "marsfact"
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/plutofact.html",
+        "retrieved_utc": "2026-11-03T19:56:53.008Z",
+        "sha256": "cdf13d454e44e0abf141389a1b0554c48b49fc7b46c9e1feea704b91db8e791f",
+        "raw_file": "data/raw/plutofact.html",
+        "page": "plutofact"
+      }
+    ]
+  },
+  "albedo": {
+    "Io": {
+      "text": "0.62",
+      "min": 0.62,
+      "max": 0.62,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Europa": {
+      "text": "0.68",
+      "min": 0.68,
+      "max": 0.68,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ganymede": {
+      "text": "0.44",
+      "min": 0.44,
+      "max": 0.44,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Callisto": {
+      "text": "0.19",
+      "min": 0.19,
+      "max": 0.19,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Metis": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Adrastea": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Amalthea": {
+      "text": "0.09",
+      "min": 0.09,
+      "max": 0.09,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Thebe": {
+      "text": "0.05",
+      "min": 0.05,
+      "max": 0.05,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Themisto": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Leda": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Himalia": {
+      "text": "0.03",
+      "min": 0.03,
+      "max": 0.03,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Lysithea": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Elara": {
+      "text": "0.03",
+      "min": 0.03,
+      "max": 0.03,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Dia": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Harpalyke": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Praxidike": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Iocaste": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ananke": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Chaldene": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Isonoe": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Erinome": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Taygete": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Carme": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Kalyke": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Pasiphae": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Megaclite": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Sinope": {
+      "text": "0.05",
+      "min": 0.05,
+      "max": 0.05,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Callirrhoe": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "joviansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Mimas": {
+      "text": "0.6",
+      "min": 0.6,
+      "max": 0.6,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Enceladus": {
+      "text": "1.0",
+      "min": 1,
+      "max": 1,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Tethys": {
+      "text": "0.8",
+      "min": 0.8,
+      "max": 0.8,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Dione": {
+      "text": "0.7",
+      "min": 0.7,
+      "max": 0.7,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Rhea": {
+      "text": "0.7",
+      "min": 0.7,
+      "max": 0.7,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Titan": {
+      "text": "0.22",
+      "min": 0.22,
+      "max": 0.22,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Hyperion": {
+      "text": "0.3",
+      "min": 0.3,
+      "max": 0.3,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Iapetus": {
+      "text": "0.05 / 0.5",
+      "min": 0.05,
+      "max": 0.5,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Pan": {
+      "text": "0.5",
+      "min": 0.5,
+      "max": 0.5,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Atlas": {
+      "text": "0.8",
+      "min": 0.8,
+      "max": 0.8,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Prometheus": {
+      "text": "0.5",
+      "min": 0.5,
+      "max": 0.5,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Pandora": {
+      "text": "0.7",
+      "min": 0.7,
+      "max": 0.7,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Epimetheus": {
+      "text": "0.8",
+      "min": 0.8,
+      "max": 0.8,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Janus": {
+      "text": "0.9",
+      "min": 0.9,
+      "max": 0.9,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Calypso": {
+      "text": "1.0",
+      "min": 1,
+      "max": 1,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Telesto": {
+      "text": "1.0",
+      "min": 1,
+      "max": 1,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Helene": {
+      "text": "0.7",
+      "min": 0.7,
+      "max": 0.7,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Kiviuq": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ijiraq": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Phoebe": {
+      "text": "0.08",
+      "min": 0.08,
+      "max": 0.08,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Paaliaq": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Skathi": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Albiorix": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Erriapus": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Siarnaq": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Tarvos": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Mundilfari": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Narvi": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Suttungr": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Thrymr": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ymir": {
+      "text": "0.06",
+      "min": 0.06,
+      "max": 0.06,
+      "page": "saturniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Miranda": {
+      "text": "0.32",
+      "min": 0.32,
+      "max": 0.32,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ariel": {
+      "text": "0.39",
+      "min": 0.39,
+      "max": 0.39,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Umbriel": {
+      "text": "0.21",
+      "min": 0.21,
+      "max": 0.21,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Titania": {
+      "text": "0.27",
+      "min": 0.27,
+      "max": 0.27,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Oberon": {
+      "text": "0.23",
+      "min": 0.23,
+      "max": 0.23,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Cordelia": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ophelia": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Bianca": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Cressida": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Desdemona": {
+      "text": "0.08",
+      "min": 0.08,
+      "max": 0.08,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Juliet": {
+      "text": "0.08",
+      "min": 0.08,
+      "max": 0.08,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Portia": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Rosalind": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Cupid": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Belinda": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Perdita": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Puck": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Mab": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Francisco": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Caliban": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Stephano": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Trinculo": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Sycorax": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Margaret": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Prospero": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Setebos": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Ferdinand": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "uraniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Naiad": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Thalassa": {
+      "text": "0.09",
+      "min": 0.09,
+      "max": 0.09,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Despina": {
+      "text": "0.09",
+      "min": 0.09,
+      "max": 0.09,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Galatea": {
+      "text": "0.08",
+      "min": 0.08,
+      "max": 0.08,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Larissa": {
+      "text": "0.09",
+      "min": 0.09,
+      "max": 0.09,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Hippocamp": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Proteus": {
+      "text": "0.10",
+      "min": 0.1,
+      "max": 0.1,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Triton": {
+      "text": "0.72",
+      "min": 0.72,
+      "max": 0.72,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Nereid": {
+      "text": "0.16",
+      "min": 0.16,
+      "max": 0.16,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Halimede": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Sao": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Laomedeia": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Psamathe": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Neso": {
+      "text": "0.04",
+      "min": 0.04,
+      "max": 0.04,
+      "page": "neptuniansatfact",
+      "column": "Visual geometric albedo"
+    },
+    "Phobos": {
+      "text": "0.07",
+      "min": 0.07,
+      "max": 0.07,
+      "page": "marsfact",
+      "column": "Geometric albedo"
+    },
+    "Deimos": {
+      "text": "0.08",
+      "min": 0.08,
+      "max": 0.08,
+      "page": "marsfact",
+      "column": "Geometric albedo"
+    },
+    "Charon": {
+      "text": "0.42",
+      "min": 0.42,
+      "max": 0.42,
+      "page": "plutofact",
+      "column": "Geometric Albedo"
+    },
+    "Styx": {
+      "text": "0.65",
+      "min": 0.65,
+      "max": 0.65,
+      "page": "plutofact",
+      "column": "Geometric Albedo"
+    },
+    "Nix": {
+      "text": "0.56",
+      "min": 0.56,
+      "max": 0.56,
+      "page": "plutofact",
+      "column": "Geometric Albedo"
+    },
+    "Kerberos": {
+      "text": "0.56",
+      "min": 0.56,
+      "max": 0.56,
+      "page": "plutofact",
+      "column": "Geometric Albedo"
+    },
+    "Hydra": {
+      "text": "0.83",
+      "min": 0.83,
+      "max": 0.83,
+      "page": "plutofact",
+      "column": "Geometric Albedo"
+    }
+  }
+}
