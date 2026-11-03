@@ -1,0 +1,5 @@
+# Veri ve görseller bayt bayt saklanır: satır sonu dönüştürülmez.
+# data/*.json içindeki SHA-256 özetleri ham dosyalarla birebir tutmalı.
+data/** -text
+assets/** -text
+vendor/** -text
