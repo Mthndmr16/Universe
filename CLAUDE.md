@@ -3,6 +3,7 @@
 Kullanıcıyla her zaman **Türkçe** konuş. Kullanıcıya görünen hiçbir şey İngilizce olmaz: mesajlar, özetler, sorular, düğmeler, komut açıklamaları, görev listesi, kod açıklamaları ve test çıktıları Türkçe yazılır.
 
 ## Ne bu
+GitHub: https://github.com/Mthndmr16/Universe (herkese açık, `main` dalı). Gönderim için GitHub CLI kurulu: `C:\Program Files\GitHub CLI\gh.exe`, hesap Mthndmr16.
 Gerçek ölçülere dayalı bir evren modeli. Sırası: Güneş Sistemi → yıldız sistemleri → Samanyolu → evren. Kardeş proje: `Desktop\Gargantua-main` (kara delik raytracer'ı); Samanyolu aşamasında buraya bağlanacak. Güncel durum ve yol haritası `PLAN.md` dosyasında.
 
 ## Değişmez kural: tek kaynak NASA
